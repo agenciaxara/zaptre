@@ -38,6 +38,7 @@ const useStyles = makeStyles((theme) => ({
 
   toolbar: {
     paddingRight: 24, // keep right padding when drawer closed
+	backgroundColor: "#00C873"
   },
   toolbarIcon: {
     display: "flex",
@@ -217,7 +218,9 @@ const LoggedInLayout = ({ children }) => {
             noWrap
             className={classes.title}
           >
-            WhaTicket
+          < div  class = "center-image" > 
+          < img  src = "zaptrelogo.svg" /> 
+          </ div >
           </Typography>
           {user.id && <NotificationsPopOver />}
 
