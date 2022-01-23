@@ -18,7 +18,7 @@ const messages = {
         },
       },
       login: {
-        title: "Login",
+        title: "Faça seu Login",
         form: {
           email: "Email",
           password: "Senha",
@@ -52,7 +52,7 @@ const messages = {
         }
       },
       connections: {
-        title: "Conexões",
+        title: "Conexões do WhatsApp",
         toasts: {
           deleted: "Conexão com o WhatsApp excluída com sucesso!",
         },
