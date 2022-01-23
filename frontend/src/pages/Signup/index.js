@@ -7,7 +7,7 @@ import { toast } from "react-toastify";
 import { Formik, Form, Field } from "formik";
 
 import {
-	Avatar,
+	//Avatar,
 	Button,
 	CssBaseline,
 	TextField,
@@ -20,7 +20,7 @@ import {
 	Link
   } from '@material-ui/core';
   
-import { LockOutlined, Visibility, VisibilityOff } from '@material-ui/icons';
+import { Visibility, VisibilityOff } from '@material-ui/icons';
   
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -33,8 +33,8 @@ import toastError from "../../errors/toastError";
 // 	return (
 // 		<Typography variant="body2" color="textSecondary" align="center">
 // 			{"Copyleft "}
-// 			<Link color="inherit" href="https://github.com/canove">
-// 				Canove
+// 			<Link color="inherit" href="https://github.com/agenciaxara">
+// 				zaptre
 // 			</Link>{" "}
 // 			{new Date().getFullYear()}
 // 			{"."}
@@ -93,9 +93,7 @@ const SignUp = () => {
 		<Container component="main" maxWidth="xs">
 			<CssBaseline />
 			<div className={classes.paper}>
-				<Avatar className={classes.avatar}>
-					<LockOutlined />
-				</Avatar>
+			<img src="zaptrelogin.svg"></img>
 				<Typography component="h1" variant="h5">
 					{i18n.t("signup.title")}
 				</Typography>
